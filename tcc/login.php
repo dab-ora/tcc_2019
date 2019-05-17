@@ -20,13 +20,13 @@ include 'cabecalho.php';
         <form method="post" action="ope.php"> 
           <h1>Login</h1> 
           <p> 
-            <label for="nome_login">nome</label>
-            <input id="nome" name="nome_login" required="required" type="text" placeholder="nome"/>
+            <label for="nome">nome</label>
+            <input id="nome" name="nome" required="required" type="text" placeholder="nome"/>
           </p>
            
           <p> 
-            <label for="email_login">senha</label>
-            <input id="senha" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+            <label for="senha">senha</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="ex. senha" /> 
           </p>
            
           <p> 
@@ -35,7 +35,7 @@ include 'cabecalho.php';
           </p>
            
           <p> 
-            <input type="submit" value="Logar" /> 
+            <input type="submit" value="logar"  /> 
           </p>
            
           <p class="link">
